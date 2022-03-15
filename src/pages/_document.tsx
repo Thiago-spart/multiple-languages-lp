@@ -1,3 +1,5 @@
+/* eslint-disable arrow-parens */
+/* eslint-disable prettier/prettier */
 /* eslint-disable @typescript-eslint/consistent-type-imports */
 /* eslint-disable-next-line @typescript-eslint/no-invalid-this */
 import Document, {

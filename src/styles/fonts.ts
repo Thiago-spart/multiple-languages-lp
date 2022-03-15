@@ -37,13 +37,9 @@ export const FONTS = {
 		}
 	`,
 	text: css`
-		font-size: 2.2rem;
-		line-height: 3.2rem;
+		font-style: normal;
 		font-weight: 400;
-	`,
-	text2: css`
-		font-size: clamp(1.8rem, 5vw, 2.2rem);
-		line-height: clamp(3rem, 5vw, 3.5rem);
-		font-weight: 400;
+		font-size: 1.8rem;
+		line-height: 2.2rem;
 	`,
 };
