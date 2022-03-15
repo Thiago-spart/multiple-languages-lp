@@ -9,8 +9,10 @@ module.exports = {
 	exportPathMap: () => {
 		return {
 			"/": { page: "/" },
-			// "/privacy-policy": { page: "/privacy-policy" },
-			// "/terms-of-service": { page: "/terms-of-service" },
+			/*
+			 * "/privacy-policy": { page: "/privacy-policy" },
+			 * "/terms-of-service": { page: "/terms-of-service" },
+			 */
 		};
 	},
 };

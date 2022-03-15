@@ -8,8 +8,9 @@ export const COLORS = {
 		--color-logo: #ff5b50;
 		--card-color: #252525;
 		--text-color: #ffffff;
+		--wallet-button-background: #ffffff;
 		--subtitle-color: #5a5757;
-		--black-text: #000;
-		--color-input: #0D0D0D;
+		--black-text: #000000;
+		--color-input: #0d0d0d;
 	`,
 };
