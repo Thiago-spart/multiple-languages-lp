@@ -1,9 +1,18 @@
+import { HeadTitle } from "web/components/HeadTitle";
+
+import { PresentationSection } from "./components/PresentationSection";
+
 import type { FCWithLayout } from "types/interfaces/layout";
+
+import { Container } from "./styles";
 
 export const HomePage: FCWithLayout = () => {
 	return (
-		<div>
-			<p>oi</p>
-		</div>
+		<>
+			<HeadTitle title="Home" />
+			<Container>
+				<PresentationSection />
+			</Container>
+		</>
 	);
 };
