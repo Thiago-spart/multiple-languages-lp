@@ -31,8 +31,9 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
 		-webkit-font-smoothing: antialiased;
-    background: var(--body-background);
-    color: var(--text-color);
+    background-color: var(--body-background);
+    background-image: url("/background.png");
+		color: var(--text-color);
     font-family: "Montserrat", sans-serif;
 		${FONTS.text}
   }
