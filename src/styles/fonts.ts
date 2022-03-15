@@ -1,20 +1,11 @@
 import { css } from "styled-components";
 
 export const FONTS = {
-	title: css`
-		line-height: calc(2.5rem + 4vw);
-		font-size: calc(2.5rem + 2vw);
-		font-weight: normal;
-
-		@media screen and (min-width: 400px) {
-			line-height: calc(2rem + 8vw);
-			font-size: calc(2rem + 6vw);
-		}
-
-		@media screen and (min-width: 1250px) {
-			font-size: 6.2rem;
-			line-height: 8.3rem;
-		}
+	title1: css`
+		font-style: normal;
+		font-weight: 700;
+		font-size: 5rem;
+		line-height: 6.1rem;
 	`,
 	title2: css`
 		font-weight: 400;
