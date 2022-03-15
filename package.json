@@ -8,6 +8,9 @@
 		"start": "next start",
 		"postbuild": "next-sitemap --config sitemap-generator.js",
 		"test": "jest",
+		"test:cov": "jest --coverage",
+		"test:watch": "jest --watch",
+		"temp:test-tsc": "tsc",
 		"format": "eslint src --fix --quiet",
 		"lint": "next lint"
 	},

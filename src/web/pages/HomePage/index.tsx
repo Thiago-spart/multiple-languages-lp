@@ -1,5 +1,6 @@
 import { HeadTitle } from "web/components/HeadTitle";
 
+import { GallerySection } from "./components/GallerySection";
 import { PresentationSection } from "./components/PresentationSection";
 
 import type { FCWithLayout } from "types/interfaces/layout";
@@ -12,6 +13,7 @@ export const HomePage: FCWithLayout = () => {
 			<HeadTitle title="Home" />
 			<Container>
 				<PresentationSection />
+				<GallerySection />
 			</Container>
 		</>
 	);
