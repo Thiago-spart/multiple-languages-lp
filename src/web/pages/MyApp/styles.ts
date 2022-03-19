@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
 		-webkit-font-smoothing: antialiased;
     background-color: var(--body-background);
-    background-image: url("/background.png");
+    background: url("/background.png") no-repeat;
 		color: var(--text-color);
     font-family: "Montserrat", sans-serif;
 		${FONTS.text}

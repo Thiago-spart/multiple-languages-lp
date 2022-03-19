@@ -33,4 +33,10 @@ export const FONTS = {
 		font-size: 1.8rem;
 		line-height: 2.2rem;
 	`,
+	text2: css`
+		font-style: normal;
+		font-weight: 600;
+		font-size: 2rem;
+		line-height: 2.4rem;
+	`,
 };
